@@ -1,4 +1,3 @@
-
 // Elemento mostrato con l'aggiunta della classe active, al click
 $('.fa-bars').click(function() {
   $('.hamburger-menu').addClass('active'); // aggingiamo una classe
