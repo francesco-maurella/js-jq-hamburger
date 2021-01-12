@@ -1,10 +1,10 @@
 
-// Aggiungiamo una classe, al click
+// Elemento mostrato con l'aggiunta della classe active, al click
 $('.fa-bars').click(function() {
-  $('.hamburger-menu').addClass('active');
+  $('.hamburger-menu').addClass('active'); // aggingiamo una classe
 });
 
-// Eliminiamo una classe, al click
+// Elemento nascosto con l'eliminazione della classe active, al click
 $('.close').click(function() {
-  $('.hamburger-menu').removeClass('active');
+  $('.hamburger-menu').removeClass('active'); // rimuoviamo una classe
 });
